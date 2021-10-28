@@ -10,7 +10,6 @@ const initialState = loadState() || {
 };
 export const AppDataProvider = (props) => {
   const [appState, setAppState] = useState(initialState);
-  console.log(appState);
   const [lastSearchData, setLastSearchData] = useState(null);
 
   const addHero = (hero) => {
