@@ -24,7 +24,7 @@ const Details = () => {
       <Link to="/app" style={{ width: "350px", height: "auto" }}>
         <Info className={classes.logo} />
       </Link>
-      <div className="flex-grow-1 position-relative d-flex flex-column align-items-center justify-content-center">
+      <div className="pb-4 flex-grow-1 position-relative d-flex flex-column align-items-center justify-content-center">
         {heroData.name ? <HeroDetailsCard hero={heroData} /> : <LoadingCard />}
       </div>
     </>
