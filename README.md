@@ -2,10 +2,9 @@
 
 https://hero-app-bay.vercel.app
 
-## Download this repo
-
-    git clone https://github.com/ramirok/hero-app.git
-
 ### Start dev server
 
+    git clone https://github.com/ramirok/hero-app.git
+    cd hero-app
+    npm i
     npm start
