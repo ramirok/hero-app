@@ -6,9 +6,8 @@ import TeamSummaryCard from "../../components/cards/teamSummaryCard/teamSummaryC
 import { useAppData } from "../../context/appContext";
 
 const Home = () => {
-  const {
-    appState: { team },
-  } = useAppData();
+  const { appState } = useAppData();
+  const team = appState.team;
 
   return (
     <>

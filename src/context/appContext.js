@@ -1,5 +1,4 @@
-import { createContext } from "react";
-import { useContext, useState } from "react/cjs/react.development";
+import { createContext, useContext, useState } from "react";
 import { loadState, saveState } from "../libs/localStorage";
 
 const AppContext = createContext();
@@ -11,6 +10,7 @@ const initialState = loadState() || {
 };
 export const AppDataProvider = (props) => {
   const [appState, setAppState] = useState(initialState);
+  console.log(appState);
   const [lastSearchData, setLastSearchData] = useState(null);
 
   const addHero = (hero) => {

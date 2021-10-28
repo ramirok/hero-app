@@ -2,9 +2,9 @@ import { useAppData } from "../../../context/appContext";
 import classes from "./teamSummaryCard.module.css";
 
 const TeamSummaryCard = () => {
-  const {
-    appState: { summary, team },
-  } = useAppData();
+  const { appState } = useAppData();
+  const team = appState.team;
+  const summary = appState.summary;
   return (
     <div className={`card ${classes.teamCard} ${classes.teamCardGood}`}>
       {team.length > 0 ? (
