@@ -1,7 +1,3 @@
-## Production build at
-
-https://hero-app-bay.vercel.app
-
 ### Start dev server
 
     git clone https://github.com/ramirok/hero-app.git
