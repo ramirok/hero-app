@@ -1,0 +1,38 @@
+.formContainer {
+  border-radius: 5px;
+  width: 70%;
+  margin-top: 4px;
+}
+
+.error {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  text-align: center;
+}
+
+.cardsContainer {
+  max-width: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.logo {
+  max-width: 350px;
+}
+
+@media screen and (max-width: 992px) {
+  .cardsContainer {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cardsContainer {
+    max-width: 90%;
+  }
+}

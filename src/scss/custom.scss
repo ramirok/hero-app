@@ -1,0 +1,12 @@
+// Override default variables before the import
+$primary: #fee918;
+$light: #eeeeee;
+
+$card-border-width: 2px;
+$card-border-color: black;
+
+$btn-focus-width: 0px;
+$btn-transition: all 0.1s linear;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";

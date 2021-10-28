@@ -1,0 +1,38 @@
+.content {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 3;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barWidth {
+  animation-name: progressBar;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes progressBar {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    width: 90%;
+    right: 5%;
+  }
+}

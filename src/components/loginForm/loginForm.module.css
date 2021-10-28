@@ -1,0 +1,35 @@
+.formContainer {
+  border-radius: 5px;
+  position: relative;
+  width: 70%;
+}
+.formContainer::after {
+  content: "";
+  width: 106%;
+  height: 86%;
+  background-color: white;
+  position: absolute;
+  left: -3%;
+  top: 7%;
+  border: 2px solid black;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.formContainer::before {
+  content: "";
+  width: 110%;
+  height: 64%;
+  background-color: white;
+  position: absolute;
+  left: -5%;
+  top: 18%;
+  border: 2px solid black;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
