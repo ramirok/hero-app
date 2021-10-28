@@ -9,7 +9,10 @@ const TeamCard = ({ hero }) => {
 
   if (!hero) {
     return (
-      <div className={`card ${classes.teamCard} d-flex justify-content-center`}>
+      <div
+        className={`card ${classes.teamCardEmpty} d-flex justify-content-center`}
+        style={{}}
+      >
         <QuestionMark className={classes.questionImage} />
       </div>
     );

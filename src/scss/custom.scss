@@ -8,5 +8,7 @@ $card-border-color: black;
 $btn-focus-width: 0px;
 $btn-transition: all 0.1s linear;
 
+$body-bg: rgb(225, 225, 225);
+
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";
