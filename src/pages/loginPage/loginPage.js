@@ -1,5 +1,5 @@
 import LoginForm from "../../components/loginForm/loginForm";
-import { ReactComponent as Logo } from "../../assets/logo2.svg";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 import classes from "./loginPage.module.css";
 
